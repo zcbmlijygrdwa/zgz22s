@@ -3,11 +3,11 @@
 clear all;
 close all;
 
-img_rgb = imread("test.png");
+img_rgb = imread("../../test_data/images/test.png");
 img_rgb = imresize(img_rgb, 0.3);
 img = rgb2gray(img_rgb);
 
-img_rgb2 = imread("test2.png");
+img_rgb2 = imread("../../test_data/images/test2.png");
 img_rgb2 = imresize(img_rgb2, 0.3);
 img2 = rgb2gray(img_rgb2);
 
